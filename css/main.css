@@ -106,7 +106,6 @@ a:hover {
 }
 
 .logo {
-  width: ;
   position: absolute;
   top: 0.5rem;
   left: 0.6rem;
@@ -410,6 +409,7 @@ footer h3 {
   }
 
 @media only screen and (min-width: 80em) {
+  
   html {
     font-size: 130%;
     line-height: 1.5;
