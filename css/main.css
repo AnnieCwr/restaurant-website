@@ -433,6 +433,7 @@ footer h3 {
 
 
   section {
+
     padding-right: 30rem;
     position: relative;
     padding-bottom: 1rem;
@@ -459,7 +460,6 @@ footer h3 {
     width: 70%;
   }
 
-}
 
 @media only screen and (min-width: 90em) {
 
