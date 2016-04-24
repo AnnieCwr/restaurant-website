@@ -327,7 +327,7 @@ footer h3 {
   }
 
   .content p {
-    font-size: 15px;
+    font-size: 0.7rem;
   }
 
   section {
@@ -467,5 +467,5 @@ footer h3 {
     font-size: 130%;
     line-height: 1.5;
   }
-  
+
 }
