@@ -28,7 +28,6 @@ body {
   top: 3rem;
   right: 0.6rem;
   background-color: #ccc;
-
 }
 
 .nav li {
@@ -94,12 +93,16 @@ ul {
 }
 
 li:hover {
-  background-color: #fff;
+  background-color: #383030;
 }
 
 a {
   text-decoration: none;
   color: #58929a;
+}
+
+a:hover {
+  color: #fff;
 }
 
 .logo {
@@ -170,9 +173,9 @@ img {
 
 section {
   padding-top: 2rem;
-  margin-left: 1rem;
+  padding-left: 1rem;
   padding-bottom: 2rem;
-  margin-right: 1rem;
+  padding-right: 8rem;
 }
 
 h3 {
@@ -187,6 +190,51 @@ h3 {
   width: 15rem;
   font-style: italic;
   text-align: center;
+}
+
+h3 {
+  font-family: "Josefin Sans";
+}
+
+section h2 {
+  margin-top: 0;
+}
+
+footer p {
+  font-size: small;
+}
+
+.footer-body-social a {
+  font-size: small;
+  display: block;
+  color: black;
+}
+
+footer h3 {
+  text-align: left;
+  font-size: small;
+  font-weight: bold;
+  font-family: "lora";
+}
+
+.footer-body-social a:hover {
+  color: black;
+}
+
+.section1 {
+  background-color: #f5f3e7;
+}
+
+.section2 {
+  background-color: #bec6c3;
+}
+
+.section3 {
+  background-color: #f5f3e7;
+}
+
+.section4 {
+  background-color: #bec6c3;
 }
 
 @media only screen and (min-width: 25em) {
@@ -235,9 +283,18 @@ h3 {
     bottom: 8rem;
   }
 
+  .banner-image {
+    max-width: 1443px;
+    max-height: 650px;
+  }
+
+  .nav li {
+    float: left;
+    width: 50%;
+  }
 }
 
-@media only screen and (min-width: 57em) {
+@media only screen and (min-width: 60em) {
   html {
     font-size: 120%;
     line-height: 1.5;
@@ -248,11 +305,11 @@ h3 {
   }
 
   .ps {
-    bottom: 20rem;
+    bottom: 22rem;
   }
 
   .btn {
-    bottom: 18rem;
+    bottom: 20rem;
   }
 
   .content-img {
@@ -287,33 +344,115 @@ h3 {
   }
 
   .events-img {
-    width: 43%;
+    width: 50%;
   }
   .content1 {
     line-height: .5;
   }
 
+  .content1 {
+    margin-top: 3rem;
+  }
+  .content2 h3 {
+    margin-top: 0;
+    padding-bottom: .6rem;
+    border-bottom: .5px solid #000;
+    margin-bottom: .5rem;
+    border-bottom-style: dotted;
+  }
 
+  .content2 {
+    margin: 0;
+  }
 
+  .content3 h3 {
+    margin-top: 0;
+    padding-bottom: .6rem;
+    border-bottom: .5px solid #000;
+    margin-bottom: .5rem;
+    border-bottom-style: dotted;
+  }
 
-}
+  .content4 h3 {
+    margin-top: 0;
+    padding-bottom: .6rem;
+    border-bottom: .5px solid #000;
+    margin-bottom: .5rem;
+    border-bottom-style: dotted;
+  }
 
-@media only screen and (min-width: 90em) {
+  .nav-check,
+  .nav-label {
+    display: none;
+  }
+
+  .nav {
+    display: inline-block;
+    top: 1rem;
+    background-color: transparent;
+  }
+
+  .nav ul li {
+    display: inline-block;
+    float: left;
+  }
+
+  .nav a {
+    color: #fff;
+  }
+
+  .nav a:hover {
+  color: #333;
+  }
+
+  li:hover {
+    background-color: transparent;
+  }
+
+@media only screen and (min-width: 80em) {
   html {
     font-size: 130%;
     line-height: 1.5;
   }
 
-  .banner-img {
-    width: 50%;
-  }
-
   .ps {
-    top: 14rem;
+    top: 19rem;
   }
 
   .btn {
-    top: 16rem;
+    top: 24rem;
+  }
 
+  .banner-img {
+    width: 100%;
+  }
+
+
+  section {
+    padding-right: 30rem;
+    position: relative;
+    padding-bottom: 1rem;
+  }
+
+  .content {
+    position: absolute;
+    right: 12rem;
+  }
+
+  .content1 {
+  top: 7.5rem;
+  }
+
+  .content2 {
+  top: 7.5rem;
+  }
+
+  .content3 {
+    top: 7.5rem;
+  }
+
+  .content-img {
+    width: 70%;
+  }
 
 }
