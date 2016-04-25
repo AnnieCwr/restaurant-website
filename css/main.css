@@ -452,6 +452,23 @@ footer {
   .copyright p {
     margin: 0;
   }
+}
+
+@media only screen and (min-width: 60em) {
+
+  footer {
+    width: 100%;
+  }
+
+  .ps {
+    bottom: 10rem;
+  }
+
+  .btn {
+    bottom: 8rem;
+  }
+
+
 
 @media only screen and (min-width: 80em) {
 
@@ -510,7 +527,6 @@ footer {
   section {
     padding-left: 1rem;
   }
-
 
 @media only screen and (min-width: 90em) {
 
