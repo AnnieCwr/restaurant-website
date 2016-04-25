@@ -22,10 +22,6 @@ body {
   margin: 0;
 }
 
-.logo {
-  color: white;
-}
-
 .nav {
   display: none;
   position: absolute;
@@ -102,7 +98,7 @@ li:hover {
 
 a {
   text-decoration: none;
-  color: #58929a;
+  color: #fff;
 }
 
 a:hover {
@@ -114,10 +110,8 @@ a:hover {
   top: 0.5rem;
   left: 0.6rem;
   font-size: 1.5rem;
-}
-
-.logo {
   margin: 0;
+  color: white;
 }
 
 .banner-img {
@@ -172,13 +166,12 @@ img {
   font-family: "Lora";
   max-width: 20rem;
   text-align: center;
+  margin: auto;
 }
 
 section {
-  padding-top: 2rem;
-  padding-left: 1rem;
-  padding-bottom: 2rem;
-  padding-right: 8rem;
+  padding-bottom: .5rem;
+  padding-top: .5rem;
 }
 
 h3 {
@@ -203,8 +196,17 @@ section h2 {
   margin-top: 0;
 }
 
+section h3 {
+  font-size: 1.5rem;
+}
+
 footer p {
   font-size: small;
+}
+
+.footer-body {
+  margin-bottom: 1.5rem;
+  line-height: .6;
 }
 
 .footer-body-social a {
@@ -218,6 +220,8 @@ footer h3 {
   font-size: small;
   font-weight: bold;
   font-family: "lora";
+  font-weight: 700;
+  margin-bottom: 0.2rem;
 }
 
 .footer-body-social a:hover {
@@ -240,6 +244,13 @@ footer h3 {
   background-color: #bec6c3;
 }
 
+footer {
+  padding: 1rem;
+  background-color: #f5f3e7;
+  margin: 0;
+
+}
+
 @media only screen and (min-width: 25em) {
   html {
     font-size: 100%;
@@ -260,6 +271,11 @@ footer h3 {
 
   .btn {
     bottom: 4rem;
+  }
+
+  .content-img {
+    width: 100%;
+    margin: auto;
   }
 
 }
@@ -292,7 +308,6 @@ footer h3 {
   }
 
   .nav li {
-    float: left;
     width: 50%;
   }
 }
@@ -332,6 +347,7 @@ footer h3 {
 
   section {
     float: left;
+    width: 100%;
   }
 
   footer {
@@ -340,10 +356,6 @@ footer h3 {
 
   h2 {
     float: left;
-  }
-
-  .content2 {
-    margin-right: 60px;
   }
 
   .events-img {
@@ -366,6 +378,7 @@ footer h3 {
 
   .content2 {
     margin: 0;
+    top: 6.5rem;
   }
 
   .content3 h3 {
@@ -374,6 +387,7 @@ footer h3 {
     border-bottom: .5px solid #000;
     margin-bottom: .5rem;
     border-bottom-style: dotted;
+    display: inline-block;
   }
 
   .content4 h3 {
@@ -382,6 +396,7 @@ footer h3 {
     border-bottom: .5px solid #000;
     margin-bottom: .5rem;
     border-bottom-style: dotted;
+    display: inline-block;
   }
 
   .nav-check,
@@ -396,8 +411,7 @@ footer h3 {
   }
 
   .nav ul li {
-    display: inline-block;
-    float: left;
+    display: inline;
   }
 
   .nav a {
@@ -412,6 +426,29 @@ footer h3 {
     background-color: transparent;
   }
 
+
+  .footer-body {
+    float: left;
+    margin-right: 4rem;
+    margin-left: 1rem;
+    line-height: 1;
+  }
+
+  .footer-body-social {
+    float: left;
+  }
+
+  .copyright {
+  float: left;
+  clear: left;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  }
+
+  .copyright p {
+    margin: 0;
+  }
+
 @media only screen and (min-width: 80em) {
 
   html {
@@ -420,11 +457,11 @@ footer h3 {
   }
 
   .ps {
-    top: 19rem;
+    bottom: 8rem;
   }
 
   .btn {
-    top: 24rem;
+    bottom: 6rem;
   }
 
   .banner-img {
@@ -433,7 +470,6 @@ footer h3 {
 
 
   section {
-
     padding-right: 30rem;
     position: relative;
     padding-bottom: 1rem;
@@ -449,15 +485,26 @@ footer h3 {
   }
 
   .content2 {
-  top: 7.5rem;
+  top: 6.5rem;
   }
 
   .content3 {
     top: 7.5rem;
   }
 
+  .content4 {
+    top: 3rem;
+  }
+
   .content-img {
     width: 70%;
+  }
+  footer {
+    padding-right: 45rem;
+  }
+
+  section {
+    padding-left: 1rem;
   }
 
 
