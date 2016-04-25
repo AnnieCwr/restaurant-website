@@ -420,15 +420,18 @@ footer {
 
   .nav a {
     color: #fff;
+    padding: .5rem;
+  }
+
+  .nav li:hover {
+    background-color: transparent;
   }
 
   .nav a:hover {
   color: #333;
-  }
-
-  li:hover {
-    background-color: #eee;
-    border-radius: 8px;
+  background-color: #eee;
+  padding: .5rem;
+  border-radius: 8px;
   }
 
   .footer-body {
@@ -468,7 +471,7 @@ footer {
     bottom: 8rem;
   }
 
-
+}
 
 @media only screen and (min-width: 80em) {
 
@@ -506,11 +509,11 @@ footer {
   }
 
   .content2 {
-  top: 6.5rem;
+  top: 4rem;
   }
 
   .content3 {
-    top: 7.5rem;
+    top: 4rem;
   }
 
   .content4 {
@@ -527,6 +530,8 @@ footer {
   section {
     padding-left: 1rem;
   }
+
+}
 
 @media only screen and (min-width: 90em) {
 
